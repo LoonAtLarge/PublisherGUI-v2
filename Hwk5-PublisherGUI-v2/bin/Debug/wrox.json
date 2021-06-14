@@ -1,0 +1,173 @@
+{
+  "books": [
+    {
+      "authors": [
+        {
+          "background": "Microsoft MVP for Visual Studio - loves working with new technologies.",
+          "first": "Christian",
+          "last": "Nagel"
+        }
+      ],
+      "price": 31.99,
+      "title": "Professional C# 7 and .NET Core 2.0"
+    },
+    {
+      "authors": [
+        {
+          "background": "Reto has spent 10 years as a Developer Advocate at Google.",
+          "first": "Reto",
+          "last": "Meier"
+        },
+        {
+          "background": "Ian is a member of the Android Toolkit teaam at Google.",
+          "first": "Ian",
+          "last": "Lake"
+        }
+      ],
+      "price": 29.97,
+      "title": "Professional Android"
+    },
+    {
+      "authors": [
+        {
+          "background": "Microsoft MVP for Visual Studio - loves working with new technologies.",
+          "first": "Christian",
+          "last": "Nagel"
+        }
+      ],
+      "price": 54.37,
+      "title": "Professional C# 6 and .NET Core 1.0"
+    },
+    {
+      "authors": [
+        {
+          "background": "Reto has spent 10 years as a Developer Advocate at Google.",
+          "first": "Reto",
+          "last": "Meier"
+        }
+      ],
+      "price": 16.99,
+      "title": "Professional Android 4 Application Development"
+    },
+    {
+      "authors": [
+        {
+          "background": "Scott Millett is the senior developer for wiggle.co.uk, an e-commerce company specializing in cycle and tri athlete sports based in the UK.",
+          "first": "Scott",
+          "last": "Millett"
+        },
+        {
+          "background": "Nick Tune is a software developer delivering solutions to complex business problems using technology, collaboration, and Domain-Driven Design.",
+          "first": "Nick",
+          "last": "Tune"
+        }
+      ],
+      "price": 38.99,
+      "title": "Patterns, Principles, and Practices of Domain-Driven Design"
+    },
+    {
+      "authors": [
+        {
+          "background": "Matt Frisbie has worked in web development for over a decade.",
+          "first": "Matt",
+          "last": "Frisbie"
+        }
+      ],
+      "price": 27.24,
+      "title": "JavaScript for Web Developers"
+    },
+    {
+      "authors": [
+        {
+          "background": "Marco L.Napoli is the CEO of Pixolini, Inc., an experienced mobile, web, and desktop app developer.",
+          "first": "Marco",
+          "last": "Napoli"
+        }
+      ],
+      "price": 17.99,
+      "title": "Beginning Flutter"
+    },
+    {
+      "authors": [
+        {
+          "background": "William Penberthy is a highly skilled technical strategist and tactician that brings a breadth of real-world business acumen into his technology-based endeavors.",
+          "first": "William",
+          "last": "Penberthy"
+        }
+      ],
+      "price": 32.22,
+      "title": "Beginning ASP.NET for Visual Studio 2015"
+    },
+    {
+      "authors": [
+        {
+          "background": "Scott Millett is the senior developer for wiggle.co.uk, an e-commerce company specializing in cycle and tri athlete sports based in the UK.",
+          "first": "Scott",
+          "last": "Millett"
+        }
+      ],
+      "price": 4.99,
+      "title": "NHibernate with ASP.NET Problem Design Solution"
+    },
+    {
+      "authors": [
+        {
+          "background": "Jon Galloway works at Microsoft as a Technical Evangelist focused on ASP.NET MVC.",
+          "first": "Jon",
+          "last": "Galloway"
+        },
+        {
+          "background": "Brad Wilson has been a professional software developer for more than 20 years, with 10 years in web development.",
+          "first": "Brad",
+          "last": "Wilson"
+        },
+        {
+          "background": "K. Scott Allen is the founder of OdeToCode LLC, which provides custom development, consulting, and mentoring services for clients worldwide.",
+          "first": "Scott",
+          "last": "Allen"
+        },
+        {
+          "background": "David Matson is a software developer at Microsoft. He is part of the MVC 5 and Web API 2 product team.",
+          "first": "David",
+          "last": "Matson"
+        }
+      ],
+      "price": 32.99,
+      "title": "Professional ASP.NET MVC 5"
+    },
+    {
+      "authors": [
+        {
+          "background": "Scott Millett is the senior developer for wiggle.co.uk, an e-commerce company specializing in cycle and tri athlete sports based in the UK.",
+          "first": "Scott",
+          "last": "Millett"
+        }
+      ],
+      "price": 32.99,
+      "title": "Professional ASP.NET Design Patterns"
+    },
+    {
+      "authors": [
+        {
+          "background": "Dr. Amirian is a developer and GIS\/IT lecturer with extensive experience developing and deploying small to large-scale Geospatial Information Systems.",
+          "first": "Pouria",
+          "last": "Amirian"
+        }
+      ],
+      "price": 25.99,
+      "title": "Beginning ArcGIS for Desktop Development using .NET"
+    },
+    {
+      "authors": [
+        {
+          "background": "Jacob Redding is an open source evangelist and technologist, and an active member in the Drupal community.",
+          "first": "Jacob",
+          "last": "Redding"
+        }
+      ],
+      "price": 25.99,
+      "title": "Beginning Drupal"
+    }
+  ],
+  "name": "Wrox"
+}

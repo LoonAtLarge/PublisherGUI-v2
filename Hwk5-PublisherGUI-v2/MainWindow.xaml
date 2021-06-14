@@ -1,0 +1,31 @@
+﻿<Window x:Class="Hwk5_PublisherGUI_v2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hwk5_PublisherGUI_v2"
+        mc:Ignorable="d"
+        Title="Hwk5-PublisherGUI-v2" Height="450" Width="800" Icon="bookshelf.png">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Exit" Click="exitMI_Click"/>
+            </MenuItem>
+            <MenuItem Header="Import" >
+                <MenuItem x:Name="fromJSONMI" Header="Publisher from JSON..." Click="openFileMI_Click"/>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem x:Name="aboutMI" Header="About..." Click="aboutMI_Click"/>
+            </MenuItem>
+        </Menu>
+        <ListBox x:Name="booksLstBx" HorizontalAlignment="Left" Height="333" Margin="10,76,0,0" VerticalAlignment="Top" Width="315" ItemsSource="{Binding Mode=OneWay}" DisplayMemberPath="Title"/>
+        <Label Content="Books" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="330,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="330,184,0,0" VerticalAlignment="Top"/>
+        <Label Content="Title" HorizontalAlignment="Left" Margin="330,133,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="titleTxt" HorizontalAlignment="Left" Height="23" Margin="387,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Text="{Binding SelectedItem.Title, ElementName=booksLstBx}" IsReadOnly="True" ToolTip="Selected Book's Title"/>
+        <TextBox x:Name="priceTxt" HorizontalAlignment="Left" Height="23" Margin="387,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Text="{Binding SelectedItem.Price, ElementName=booksLstBx}" IsReadOnly="True" ToolTip="Selected Book's Price"/>
+        <TextBox x:Name="idTxt" HorizontalAlignment="Left" Height="23" Margin="387,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" Text="{Binding SelectedItem.Id, ElementName=booksLstBx}" IsReadOnly="True" ToolTip="Selected Book's unique ID"/>
+
+    </Grid>
+</Window>
